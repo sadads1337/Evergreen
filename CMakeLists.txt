@@ -14,5 +14,8 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_subdirectory(src/Core)
+add_subdirectory(src/DataSource)
+add_subdirectory(src/DataSourceManager)
+add_subdirectory(src/Kernel)
 add_subdirectory(src/TestApp)
 add_subdirectory(src/TestAppLib)
